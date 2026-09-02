@@ -1,0 +1,43 @@
+.corpo {
+    display: flex;
+
+    width: 100%;
+
+    min-height: 600px;
+
+    padding: 15px;
+}
+
+
+/* MENU LATERAL */
+
+.lateral {
+    width: 120px;
+
+    padding: 5px;
+}
+
+.lateral p {
+    font-size: 13px;
+
+    color: #666;
+
+    font-weight: bold;
+}
+
+
+/* ÁREA DAS NOTÍCIAS */
+
+.noticias {
+    flex: 1;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    max-width: 1000px;
+
+    margin: 5px auto;
+}

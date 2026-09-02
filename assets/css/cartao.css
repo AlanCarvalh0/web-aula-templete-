@@ -1,0 +1,110 @@
+.cartao {
+    background-color: hwb(216 95% 3%);
+
+    border: 1px solid #edf1f1;
+
+    border-radius: 7px;
+
+    padding: 8px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+
+    overflow: hidden;
+}
+
+
+/* IMAGEM */
+
+.cartao img {
+    width: 100%;
+
+    height: 125px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* TÍTULO */
+
+.cartao h2 {
+    font-size: 19px;
+
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+    line-height: 1.2;
+}
+
+
+/* DATA E CATEGORIA */
+
+.informacoes {
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 10px;
+
+    margin-bottom: 12px;
+}
+
+.categoria {
+    color: #77bd8f;
+
+    font-weight: bold;
+}
+
+.data {
+    color: #3130309c;
+}
+
+
+/* DESCRIÇÃO */
+
+.descricao {
+    font-size: 12px;
+
+    line-height: 1.4;
+
+    margin-bottom: 12px;
+
+    min-height: 34px;
+}
+
+
+/* AUTOR */
+
+.autor {
+    font-size: 10px;
+
+    font-weight: bold;
+
+    font-style: italic;
+
+    margin-bottom: 12px;
+}
+
+
+/* BOTÃO */
+
+.cartao button {
+    width: 100%;
+
+    border: none;
+
+    background-color: #4e4397;
+
+    color: white;
+
+    padding: 9px;
+
+    border-radius: 6px;
+
+    font-size: 12px;
+}
+
+.cartao button:hover {
+    background-color: #3e32bd;
+}
