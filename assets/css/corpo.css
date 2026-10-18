@@ -41,3 +41,11 @@
 
     margin: 5px auto;
 }
+
+.lateral {
+    display: none;
+}
+
+.lateral.ativo {
+    display: block;
+}
