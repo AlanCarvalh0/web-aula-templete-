@@ -9,21 +9,16 @@
 }
 
 
-/* MENU LATERAL */
-
 .lateral {
-    width: 120px;
-
-    padding: 5px;
+    width: 200px;
+    padding: 20px;
+    display: none;
 }
 
-.lateral p {
-    font-size: 13px;
-
-    color: #666;
-
-    font-weight: bold;
+.lateral.ativo {
+    display: block;
 }
+
 
 
 /* ÁREA DAS NOTÍCIAS */
@@ -40,4 +35,46 @@
     max-width: 1000px;
 
     margin: 5px auto;
+}
+
+.lateral {
+    display: none;
+}
+
+.lateral.ativo {
+    display: block;
+}
+
+/* Tablet e celular */
+@media (max-width: 900px) {
+    .corpo {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .noticias {
+        width: 100%;
+    }
+}
+
+/* Celular */
+@media (max-width: 600px) {
+    .cartao {
+        width: 100%;
+    }
+
+    .cabecalho h1 {
+        font-size: 16px;
+    }
+}
+
+#detalhe-noticia {
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .corpo {
+        display: block;
+        padding: 15px;
+    }
 }
