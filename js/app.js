@@ -116,11 +116,13 @@ function configurarMenu() {
     const menuLateral = document.querySelector(".lateral");
 
     if (!botaoMenu || !menuLateral) {
-        return; 
+        return;
     }
 
     botaoMenu.addEventListener("click", function() {
         menuLateral.classList.toggle("ativo");
+        const ativo = menuLateral.classList.contains("ativo");
+        botaoMenu.setAttribute("aria-expanded", String(ativo));
     });
 }
 
