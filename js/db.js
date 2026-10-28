@@ -6,6 +6,13 @@ const usuario = {
     senha: "admin"
 };
 
+export const usuarioAdmin = {
+    nome: "Administrador",
+    email: "adm@email.com",
+    senha: "admin"
+};
+
+
 function obterUsuarios() {
     const dados = localStorage.getItem(STORAGE_KEY);
 
