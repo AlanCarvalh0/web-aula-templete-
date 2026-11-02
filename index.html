@@ -1,58 +1,39 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Notícias</title>
-
-    <link rel="stylesheet" href="assets/css/estilo.css">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/corpo.css">
-    <link rel="stylesheet" href="assets/css/cartao.css">
-    <link rel="stylesheet" href="assets/css/rodape.css">
-    <link rel="stylesheet" href="assets/login/cadastro.css">
-    <script src="js/db.js"></script>
-     <script src="js/login.js"></script>
-    <script src="https://kit.fontawesome.com/61762345f1.js"></script>
-</head>
-
-<body>
-
-   <header class="cabecalho">
-
-    <div class="logo">
-        <span>SN</span>
-        <h1>Site de Notícias</h1>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Site de Notícias</title>
+    <link rel="stylesheet" href="./assets/css/login/estilo.css" />
+    <script src="./assets/js/login.js" type="module"></script>
+    <script
+      src="https://kit.fontawesome.com/b581796bdd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">W</div>
+      <h1 class="titulo">Meu Site de Notícias</h1>
+    </header>
+    <div class="container">
+      <h1>Login</h1>
+      <form>
+        <div class="input-grupo">
+          <i class="fas fa-envelope"></i>
+          <input id="email" type="email" placeholder="Informe seu e-mail" />
+        </div>
+        <div class="input-grupo">
+          <i class="fas fa-lock"></i>
+          <input id="senha" type="password" placeholder="Informe sua senha" />
+        </div>
+        <button><i class="fas fa-sign-in-alt"></i> Entrar</button>
+      </form>
+      <div class="links-auxiliares">
+        <a href="#">Esqueceu a senha?</a>
+        <span>-</span>
+        <a href="#">Registre-se</a>
+      </div>
     </div>
-
-    <a href="cadastro.html" class="btn-entrar">Faça seu cadastro</a>
-
-    <button class="menu">☰</button>
-
-</header>
-
-<main class="corpo">
-    <aside class="lateral">
-        <nav class="menu-lateral">
-            <h3>Menu</h3>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#">Tecnologia</a></li>
-                <li><a href="#">Cultura</a></li>
-                <li><a href="#">Transporte</a></li>
-            </ul>
-        </nav>
-    </aside>
-
-    <section class="noticias" id="lista-noticias">
-    </section>
-</main>
-
-<footer class="rodape">
-    <p>Alan 2026</p>
-</footer>
-
-<script src="js/app.js"></script>
-</body>
+  </body>
 </html>
