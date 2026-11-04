@@ -11,8 +11,8 @@ header {
 }
 
 .logo {
-  border: 0.1rem blue solid;
-  background-color: blue;
+  border: 0.1rem rgb(192, 192, 192) solid;
+  background-color: rgb(0, 0, 0);
   color: #eee;
   font-weight: bold;
   border-radius: 100%;
